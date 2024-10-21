@@ -195,3 +195,5 @@ kubectl get nodes
 * [Karpenter Blueprints](https://github.com/aws-samples/karpenter-blueprints)
 * [Karpenter Helm Chart](https://artifacthub.io/packages/helm/karpenter/karpenter)
 * [Karpenter Cloudformation Template](https://karpenter.sh/docs/reference/cloudformation/)
+
+Cooked with L0V3 by [BR78](mailto:brunorossiweb@gmail.com)
