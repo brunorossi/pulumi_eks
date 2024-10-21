@@ -1,0 +1,14 @@
+{
+    "name": "eks-component-iac",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/awsx": "^2.16.1",
+        "@pulumi/eks": "^2.8.1",
+        "@pulumi/kubernetes": "^4.18.1",
+        "@pulumi/pulumi": "^3.113.0"
+    }
+}
