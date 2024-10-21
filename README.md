@@ -197,3 +197,4 @@ kubectl get nodes
 * [Karpenter Cloudformation Template](https://karpenter.sh/docs/reference/cloudformation/)
 
 Cooked with L0V3 by [BR78](mailto:brunorossiweb@gmail.com)
+
