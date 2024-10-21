@@ -1,6 +1,6 @@
 # Deploy an EKS cluster with Pulumi
 
-The following playbook is based on OS Ubuntu 20.04.4 LTS and it is an attempt 
+The following playbook is based on OS Ubuntu 20.04 LTS and it is an attempt 
 to run an EKS cluster with Pulumi. Currently the EKS cluster is configured 
 with Managed Node Pools, Karpenter, AWS Load Balancer Controller, Metrics Server 
 Cloudwatch Insight Observability Add On and Pod Identity Add On.
@@ -163,10 +163,10 @@ export AWS_SECRET_ACCESS_KEY=******
 export AWS_REGION=us-east-1
 
 # create the stack
-pulumi up --stack brunorossi78/dev
+pulumi up --stack <YOUR-PULUMI>/dev
 
 # select the stack
-pulumi stack select brunorossi78/dev
+pulumi stack select <YOUR-PULUMI>/dev
 
 # get the stack output called kubeconfig and save it into kubeconfig.yml
 pulumi stack output kubeconfig > kubeconfig.yml
